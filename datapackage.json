@@ -5,7 +5,7 @@
   "licenses" : [
     {
       "id": "odc-pddl",
-      "url": "http://opendatacommons.org/licenses/pddl/",
+      "url": "http://opendatacommons.org/licenses/pddl/"
     }
   ],
   "keywords": [ "CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank" ],
@@ -38,7 +38,7 @@
           {
             "id": "CPI",
             "description": "CPI (where 2005=100)", 
-            "type": "number",
+            "type": "number"
           }
 	]
       }
