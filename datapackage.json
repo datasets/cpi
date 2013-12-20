@@ -9,8 +9,8 @@
     }
   ],
   "keywords": [ "CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank" ],
-  "version": "1.0.1",
-  "last_updated": "2013-05-27",
+  "version": "1.1.0",
+  "last_updated": "2013-12-20",
   "sources": [
     {
       "name": "The World Bank",
