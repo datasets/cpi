@@ -1,5 +1,3 @@
-# CPI datapackage
-
 Annual Consumer Price Index (CPI) for most countries in the world when it has been measured. The reference year is 2005 (meaning the value of CPI for all countries is 100 and all other CPI values are relative to that year).
 
 # Data
