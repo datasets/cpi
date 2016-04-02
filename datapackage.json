@@ -19,7 +19,7 @@
   ],
   "resources": [
     {
-      "url": "https://raw.githubusercontent.com/datasets/cpi/master/data/cpi.csv",
+      "path": "data/cpi.csv",
       "schema": {
         "fields": [
           {
