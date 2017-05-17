@@ -1,22 +1,20 @@
 {
-  "name": "cpi",
-  "title": "Annual Consumer Price Index (CPI)",
   "description": "Annual Consumer Price Index (CPI) for most countries in the world. Reference year is 2005.",
-  "licenses" : [
+  "keywords": [
+    "CPI",
+    "World",
+    "Consumer Price Index",
+    "Annual Data",
+    "The World Bank"
+  ],
+  "last_updated": "2014-09-22",
+  "licenses": [
     {
       "type": "odc-pddl",
       "url": "http://opendatacommons.org/licenses/pddl/"
     }
   ],
-  "keywords": [ "CPI", "World", "Consumer Price Index", "Annual Data", "The World Bank" ],
-  "version": "2.0.0",
-  "last_updated": "2014-09-22",
-  "sources": [
-    {
-      "name": "The World Bank",
-      "web": "http://data.worldbank.org/indicator/FP.CPI.TOTL"
-    }
-  ],
+  "name": "cpi",
   "resources": [
     {
       "path": "data/cpi.csv",
@@ -31,17 +29,25 @@
             "type": "string"
           },
           {
+            "format": "any",
             "name": "Year",
-            "type": "date",
-            "format": "yyyy"
+            "type": "date"
           },
           {
+            "description": "CPI (where 2005=100)",
             "name": "CPI",
-            "description": "CPI (where 2005=100)", 
             "type": "number"
           }
-	]
+        ]
       }
     }
-  ]
+  ],
+  "sources": [
+    {
+      "name": "The World Bank",
+      "web": "http://data.worldbank.org/indicator/FP.CPI.TOTL"
+    }
+  ],
+  "title": "Annual Consumer Price Index (CPI)",
+  "version": "2.0.0"
 }
